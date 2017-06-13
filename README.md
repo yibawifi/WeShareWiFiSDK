@@ -1,5 +1,5 @@
 
-# Weshare WiFi SDK 集成说明文档 2.2.1(标准版)
+# Weshare WiFi SDK 集成说明文档 2.2.2(标准版)
 
 ## 一、Android Studio WiFiSDK 快速集成 (必须)
 
