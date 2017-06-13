@@ -5,18 +5,23 @@ android {
     buildToolsVersion "25.0.2"
     defaultConfig {
         applicationId "com.yiba.testaar"
-        minSdkVersion 14
+        minSdkVersion 15
         targetSdkVersion 22
         versionCode 1
         versionName "1.0"
     }
+
+    dexOptions {
+        javaMaxHeapSize "2g"
+    }
+
     buildTypes {
         release {
-            minifyEnabled false
+            minifyEnabled true
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
         debug {
-            minifyEnabled false
+            minifyEnabled true
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
@@ -30,7 +35,7 @@ repositories {
 
 dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
-    compile 'com.yiba.sdk:weshareWiFiSDk:2.2.1'
+    compile 'com.yiba.sdk:weshareWiFiSDk:2.2.2'
     compile 'com.android.support:support-v4:25.0.0'
     compile 'com.android.support:recyclerview-v7:25.0.0'
 }

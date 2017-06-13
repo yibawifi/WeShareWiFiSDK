@@ -66,8 +66,16 @@ compile 'com.android.support:support-v4:25.0.0'
 
 如果你的 app 的 targetSdkVersion 小于 23 ，你不需要添加任何权限。
 
+## 五、WiFiSDK 初始化 (必须)
 
-## 五、启动 WIFI 界面 (必须)
+将以下代码复制到项目 Application 类 onCreate()中，SDK会为自动完成初始化。
+
+```
+WiFiSDKManager.init( this );
+```
+
+
+## 六、启动 WIFI 界面 (必须)
 
 ```
 Intent intent = new Intent( MainActivity.this , WiFiActivity.class) ;
@@ -75,7 +83,7 @@ startActivity( intent );
 
 ```
 
-## 六、自定义通知 (可选)
+## 七、自定义通知 (可选)
 
 
 ```
@@ -128,9 +136,9 @@ NotificationReceiver 需要在 AndroidManifest.xml 文件中注册
 ```
 
 
-## 七、自定义UI (可选)
+## 八、自定义UI (可选)
 
-### 7.1、自定义 WiFi 列表页面返回箭头的点击事件。
+### 8.1、自定义 WiFi 列表页面返回箭头的点击事件。
 
 ![image](http://oquxsbjw1.bkt.clouddn.com/WiFi%20SDK%201.png)
 
@@ -174,9 +182,9 @@ public class WiFiSDKActivity extends WiFiActivity {
 
 **注意事项**
 
-- 7.1.1、重写的 initBackLayout() 方法不能带有   `super.initBackLayout();`
+- 8.1.1、重写的 initBackLayout() 方法不能带有   `super.initBackLayout();`
 
-- 7.1.2、WiFiSDKActivity 需要在 AndroidManifest.xml 文件中注册
+- 8.1.2、WiFiSDKActivity 需要在 AndroidManifest.xml 文件中注册
 
 ```
 <activity 
@@ -185,7 +193,7 @@ public class WiFiSDKActivity extends WiFiActivity {
 
 ```
 
-- 7.1.3、打开 WiFi 列表界面
+- 8.1.3、打开 WiFi 列表界面
 
 ```
 
@@ -195,7 +203,7 @@ startActivity( intent );
 ```
 
 
-### 7.2、 自定义 WiFi 页面 Tab 字体颜色
+### 8.2、 自定义 WiFi 页面 Tab 字体颜色
 
 默认情况下，WiFi 页面 Tab 选中的颜色是白色 `( #ffffff )` , 未选中的颜色是灰色 `( #dddddd) ` ， 效果如图所示。
 
@@ -211,7 +219,7 @@ startActivity( intent );
 如果开发者需要自定义 Tab 字体颜色，你可以在 colors.xml 文件中重写这两个颜色值。
 
 
-### 7.3、自定义 WiFi 列表页面背景色
+### 8.3、自定义 WiFi 列表页面背景色
 
 默认情况下，WiFi 检测页 和 WiFi 列表页的背景色是一个渐变色。样式如下图所示：
 
@@ -250,7 +258,7 @@ startActivity( intent );
 ![](http://oquxsbjw1.bkt.clouddn.com/yiba_wifi_bg_new_600.jpg)
 
 
-### 7.4、自定义 WiFi 检测结果页 UI 样式
+### 8.4、自定义 WiFi 检测结果页 UI 样式
 
 默认的检测结果页的样式如图所示：
 
@@ -277,7 +285,7 @@ WiFiSDKManager.s_bgColor = getResources().getColor( R.color.yiba_ui_bg_color ) ;
 
 ![](http://oquxsbjw1.bkt.clouddn.com/yiba_wifi_jianche_new.jpg)
 
-## 八、混淆说明 (必须)
+## 九、混淆说明 (必须)
 
 ```
 -keep class com.yiba.**{*;}
