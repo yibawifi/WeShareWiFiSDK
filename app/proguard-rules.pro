@@ -25,3 +25,4 @@
 # sdk 需要的混淆规则
 -keep class com.yiba.**{*;}
 -keep class www.yiba.com.**{*;}
+-keep class android.support.v4.app.ActivityCompat{*;}

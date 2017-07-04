@@ -1,10 +1,10 @@
 
-# Weshare WiFi SDK 集成说明文档 2.2.3(标准版)
+# Weshare WiFi SDK 集成说明文档 2.3.0(标准版)
 
 ## 一、Android Studio WiFiSDK 快速集成 (必须)
 
 ```
-   compile 'com.yiba.sdk:weshareWiFiSDk:latest.release'
+   compile 'com.yiba.sdk:weshareWiFiSDk:2.3.0'
 ```
 
 **注意事项**
