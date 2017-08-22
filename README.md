@@ -244,7 +244,6 @@ If developer changes the theme color to others, for example light green
 
 ```
 
-- 在 drawable 目录下新建 yiba_bg_color.xml 文件
 - Create yiba_bg_color.xml file in your project in res/drawable/ folder
 ```
 <?xml version="1.0" encoding="utf-8"?>
