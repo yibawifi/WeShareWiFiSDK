@@ -6,7 +6,7 @@
 ## 1. Android Studio WiFiSDK quick  integration(mandatory)
 
 ```
-   compile 'com.yiba.sdk:weshareWiFiSDk:2.3.0'
+   compile 'com.yiba.sdk:weshareWiFiSDk:2.3.1'
 ```
 
 **Please Note**
