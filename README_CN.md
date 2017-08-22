@@ -1,23 +1,25 @@
 
-# WeShare WiFi SDK Integration Instructions 2.3.1 (Standard)
+# Weshare WiFi SDK 集成说明文档 2.3.1(标准版)
 
-[中文](README_CN.md)
+[English](README.md)
 
-## 1. Android Studio WiFiSDK quick  integration(mandatory)
+## 一、Android Studio WiFiSDK 快速集成 (必须)
 
 ```
    compile 'com.yiba.sdk:weshareWiFiSDk:2.3.0'
 ```
 
-**Please Note**
+**注意事项**
 
-- If the native “so” file in your project only supports certain cpu platfrom, please exclude other “so” in build.gradle. Our aar contains all cpu platforms.
+- 如果您的项目中的so只需要支持某个cpu平台，请在build.gradle文件中
+剔除其他的so，我们aar包中包含了所有的cpu编译平台
 
-- Fow example, my app project only uses armeabi-v7a/libgif.so, then you should include the rules below in your project：
+- 例如我的APP项目只用到了armeabi-v7a/libgif.so,那么你需要在你的项目
+配置如下规则：
 
 ```java
 android {
-    //exclude other so files.
+    //剔除aar包多余的依赖
     packagingOptions {
         exclude 'lib/armeabi/*'
         exclude 'lib/arm64-v8a/*'
@@ -26,12 +28,12 @@ android {
         exclude 'lib/mips/*'
         exclude 'lib/mips64/*'
     }
-
+    
 }
 ```
-- If your project uses other platfroms, please exclude accordingly refer to the example above
+- 如果你的是其他的平台，请参照上面做相应的剔除
 
-## 2. Add gradle compile  (mandatory)
+## 二、添加引用 (必须)
 
 ```
 compile 'com.android.support:recyclerview-v7:25.0.0'
@@ -39,23 +41,23 @@ compile 'com.android.support:support-v4:25.0.0'
 
 ```
 
-## 3. Set Token (mandatory)
+## 三、设置 Token (必须)
 
-```
+``` 
  <string name="yiba_wifi_token">yourAppToken</string>
 
 ```
 
-**Notice：**
+**注意事项：**
 
-- yourAppToken means you must instead of your token .
+- yourAppToken 表示你的 App WiFi SDK 需要添加的 Token . 
 
-- In our website to get the token (https://www.pegasus-mobile.com/) .
+- 在官网 (http://www.pegasus-mobile.com/) 申请 Token .
 
 
-## 4. Add permissions (mandatory)
+## 四、权限添加 (必须)
 
-If your app’s gradle config “targetSdkVersion” larger than 23， you must add below permission in your AndroidMainifest.xml file.
+如果你的 app 的 targetSdkVersion 大于或者等于 23 ， 你需要添加定位定位权限
 
 ```
 
@@ -64,18 +66,18 @@ If your app’s gradle config “targetSdkVersion” larger than 23， you must 
 
 ```
 
-else if your app’s targetSdkVersion small than 23，you can noting to do with permission。
+如果你的 app 的 targetSdkVersion 小于 23 ，你不需要添加任何权限。
 
-## 5. WiFiSDK init (mandatory)
+## 五、WiFiSDK 初始化 (必须)
 
-Copy this code in your Application class, please add in the onCreate()，that is the SDK start the service and prepare some data for SDK.
+将以下代码复制到项目 Application 类 onCreate()中，SDK会为自动完成初始化。
 
 ```
 WiFiSDKManager.init( this );
 ```
 
 
-## 6. Start SDK Activity (mandatory)
+## 六、启动 WIFI 界面 (必须)
 
 ```
 Intent intent = new Intent( MainActivity.this , WiFiActivity.class) ;
@@ -83,7 +85,7 @@ startActivity( intent );
 
 ```
 
-## 7. Add notification in your project (Optional)
+## 七、自定义通知 (可选)
 
 
 ```
@@ -108,10 +110,11 @@ public class NotificationReceiver extends BroadcastReceiver {
                 intent.getStringExtra(WiFiSDKManager.YIBA_NOTIFICATION_JSON_DATA);
 
                 /**
-                 * json Data example： {"type":0,"count":7}
+                 * json 数据格式： {"type":0,"count":7}
                  *
-                 *        type means WiFi’s type（ 0：Shared WiFi 、1：Open WiFi  ）
-                 *        count : means WiFi count.
+                 * json 数据字段说明：
+                 *        type 代表WiFi 类型（ 0：Shared WiFi 、1：Open WiFi  ）
+                 *        count : 代表对应 WiFi 的个数
                  *
                  */
             }
@@ -121,7 +124,7 @@ public class NotificationReceiver extends BroadcastReceiver {
 
 ```
 
-NotificationReceiver needs to be registered in AndroidManifest.xml
+NotificationReceiver 需要在 AndroidManifest.xml 文件中注册
 
 
 ```
@@ -135,16 +138,15 @@ NotificationReceiver needs to be registered in AndroidManifest.xml
 ```
 
 
-## 8. Customize UI (Optional)
+## 八、自定义UI (可选)
 
-### 8.1 Customize click event of back button in WiFi list page
+### 8.1、自定义 WiFi 列表页面返回箭头的点击事件。
 
 ![image](http://oquxsbjw1.bkt.clouddn.com/WiFi%20SDK%201.png)
 
 默认情况下，点击返回的按钮，会执行 finish() 方法，销毁掉 WiFi 列表 Activity 。如果开发者想要获取返回按钮的点击事件，需要用自己定义的 Activity 继承 WiFiActivity 并且重写 WiFiActivity 的 initBackLayout() 方法。示例如下：
-When in default, click on the back button will execute finish() method and delete WiFi list Activity. If developer would like to gain click event of back button, developer needs to extends WiFiActivity and override the `initBackLayout()` method, the sample like below,
 
--  WiFiSDKActivity class
+-  WiFiSDKActivity 类
 
 ```
 
@@ -162,7 +164,7 @@ import com.yiba.wifi.ui.WiFiActivity;
 public class WiFiSDKActivity extends WiFiActivity {
 
     /**
-     * Override initBackLayout()
+     * 重写 initBackLayout() 方法
      */
     @Override
     public void initBackLayout() {
@@ -180,20 +182,20 @@ public class WiFiSDKActivity extends WiFiActivity {
 
 ```
 
-**Please note**
+**注意事项**
 
-- Override initBackLayout() method cannot contain `super.initBackLayout();`
+- 8.1.1、重写的 initBackLayout() 方法不能带有   `super.initBackLayout();`
 
-- 8.1.2 WiFiSDKActivity needs to be registered in AndroidManifest.xml file.
+- 8.1.2、WiFiSDKActivity 需要在 AndroidManifest.xml 文件中注册
 
 ```
-<activity
+<activity 
     android:name=".WiFiSDKActivity">
 </activity>
 
 ```
 
--8.1.3   Start WiFi list page
+- 8.1.3、打开 WiFi 列表界面
 
 ```
 
@@ -203,40 +205,41 @@ startActivity( intent );
 ```
 
 
-### 8.2  Customize tab font color in WiFi page
+### 8.2、 自定义 WiFi 页面 Tab 字体颜色
 
-In default, in WiFi page Tab’s chosen color is white `( #ffffff )`, color not chosen is gray `( #dddddd) `. Please see the picture for the effect:
+默认情况下，WiFi 页面 Tab 选中的颜色是白色 `( #ffffff )` , 未选中的颜色是灰色 `( #dddddd) ` ， 效果如图所示。
 
 ![](http://oquxsbjw1.bkt.clouddn.com/yiba_tab_color.png)
 
+ 
+```
+<color name="yiba_viewpager_tip_selected">#ffffff</color> <!-- tab 被选中字体颜色 -->
+<color name="yiba_viewpager_tip_unselected">#dddddd</color> <!-- tab 未被选中字体颜色 -->
 
 ```
-<color name="yiba_viewpager_tip_selected">#ffffff</color> <!-- tab selected color -->
-<color name="yiba_viewpager_tip_unselected">#dddddd</color> <!-- tab unselected color -->
 
-```
-
-If developer needs to customize Tab font color, you may rewrite the values of the two colors in res/values/colors.xml files.
+如果开发者需要自定义 Tab 字体颜色，你可以在 colors.xml 文件中重写这两个颜色值。
 
 
-### 8.3 Customize background color in WiFi list page
+### 8.3、自定义 WiFi 列表页面背景色
 
-In default, the background color of WiFi analyze page and WiFi list page are the same gradient color. Please see the picture below for the style:
+默认情况下，WiFi 检测页 和 WiFi 列表页的背景色是一个渐变色。样式如下图所示：
+
 ![image](http://oquxsbjw1.bkt.clouddn.com/yiba_wifi_bg_old_600.jpg)
 
-If developer changes the theme color to others, for example light green
+如果开发者改变主题色，比如改成 浅绿色 
 
--In res/values/colors.xml, add the gradient color’s starting and ending color
-
-```
-
-<color name="yiba_status_bar_bg_start">#5ba938</color> <!-- the start bg color with gradient-->
-<color name="yiba_status_bar_bg_end">#58c129</color> <!-- the end bg color with  gradient -->
+- 在 colors.xml 定义渐变色的 开始颜色、结束颜色
 
 ```
 
-- 在 drawable 目录下新建 yiba_bg_color.xml 文件
-- Create yiba_bg_color.xml file in your project in res/drawable/ folder
+<color name="yiba_status_bar_bg_start">#5ba938</color> <!-- 背景渐变色的开始颜色 -->
+<color name="yiba_status_bar_bg_end">#58c129</color> <!-- 背景渐变色的结束颜色  -->
+
+```
+
+- 在 drawable 目录下新建 yiba_bg_color.xml 文件 
+
 ```
 <?xml version="1.0" encoding="utf-8"?>
 <shape xmlns:android="http://schemas.android.com/apk/res/android"
@@ -252,40 +255,43 @@ If developer changes the theme color to others, for example light green
 
 ```
 
-See below for the effect:
+效果如下：
 
 ![](http://oquxsbjw1.bkt.clouddn.com/yiba_wifi_bg_new_600.jpg)
 
 
-### 8.4 Customize UI style in WiFi analyzer result page
+### 8.4、自定义 WiFi 检测结果页 UI 样式
 
-Default WiFi analyzer result page style is as shown below:
+默认的检测结果页的样式如图所示：
+
 ![](http://oquxsbjw1.bkt.clouddn.com/yiba_wifi_jianche_old.jpg)
 
-If developer would like to customize WiFi analyzer result page style, for example to **light green**
-- Add color value in /res/values/colors.xml
+如果开发者要自定义检测结果页的样式，比如改成 **浅绿色**
+
+- 在 colors.xml 定义颜色值
+
 
 ```
 <color name="yiba_ui_bg_color">#58c129</color>
 
 ```
 
-- Please add this code in your Application class
-
+- 在 WiFi 列表页面启动前调用
 
 ```
 WiFiSDKManager.s_bgColor = getResources().getColor( R.color.yiba_ui_bg_color ) ;
 
 ```
 
-See result after changing as follows:
+修改后效果如果所示：
 
 ![](http://oquxsbjw1.bkt.clouddn.com/yiba_wifi_jianche_new.jpg)
 
-## 9. Proguard in your project pleas add below code (mandatory)
+## 九、混淆说明 (必须)
 
 ```
 -keep class com.yiba.**{*;}
 -keep class www.yiba.com.**{*;}
 
 ```
+
