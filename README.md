@@ -292,7 +292,7 @@ See result after changing as follows:
 
 ![](http://oquxsbjw1.bkt.clouddn.com/yiba_wifi_jianche_new.jpg)
 
-## 9. Proguard in your project pleas add below code (mandatory)
+## 9. Proguard in your project please add below code (mandatory)
 
 ```
 -keep class com.yiba.**{*;}
