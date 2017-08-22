@@ -11,9 +11,11 @@
 
 **Please Note**
 
-- If the native “so” file in your project only supports certain cpu platfrom, please exclude other “so” in build.gradle. Our aar contains all cpu platforms.
+- If the native “so” file in your project only supports certain cpu platfrom,
+please exclude other “so” in build.gradle. Our aar contains all cpu platforms.
 
-- Fow example, my app project only uses armeabi-v7a/libgif.so, then you should include the rules below in your project：
+- Fow example, my app project only uses armeabi-v7a/libgif.so, then you should
+include the rules below in your project：
 
 ```java
 android {
@@ -55,7 +57,8 @@ compile 'com.android.support:support-v4:25.0.0'
 
 ## 4. Add permissions (mandatory)
 
-If your app’s gradle config “targetSdkVersion” larger than 23， you must add below permission in your AndroidMainifest.xml file.
+If your app’s gradle config “targetSdkVersion” larger than 23， you must
+add below permission in your AndroidMainifest.xml file.
 
 ```
 
@@ -68,7 +71,8 @@ else if your app’s targetSdkVersion small than 23，you can noting to do with 
 
 ## 5. WiFiSDK init (mandatory)
 
-Copy this code in your Application class, please add in the onCreate()，that is the SDK start the service and prepare some data for SDK.
+Copy this code in your Application class, please add in the onCreate()，
+that is the SDK start the service and prepare some data for SDK.
 
 ```
 WiFiSDKManager.init( this );
@@ -141,8 +145,9 @@ NotificationReceiver needs to be registered in AndroidManifest.xml
 
 ![image](http://oquxsbjw1.bkt.clouddn.com/WiFi%20SDK%201.png)
 
-默认情况下，点击返回的按钮，会执行 finish() 方法，销毁掉 WiFi 列表 Activity 。如果开发者想要获取返回按钮的点击事件，需要用自己定义的 Activity 继承 WiFiActivity 并且重写 WiFiActivity 的 initBackLayout() 方法。示例如下：
-When in default, click on the back button will execute finish() method and delete WiFi list Activity. If developer would like to gain click event of back button, developer needs to extends WiFiActivity and override the `initBackLayout()` method, the sample like below,
+When in default, click on the back button will execute finish() method and delete WiFi list Activity.
+If developer would like to gain click event of back button, developer needs to extends WiFiActivity
+and override the `initBackLayout()` method, the sample like below,
 
 -  WiFiSDKActivity class
 
@@ -205,7 +210,8 @@ startActivity( intent );
 
 ### 8.2  Customize tab font color in WiFi page
 
-In default, in WiFi page Tab’s chosen color is white `( #ffffff )`, color not chosen is gray `( #dddddd) `. Please see the picture for the effect:
+In default, in WiFi page Tab’s chosen color is white `( #ffffff )`, color not chosen is gray `( #dddddd) `.
+Please see the picture for the effect:
 
 ![](http://oquxsbjw1.bkt.clouddn.com/yiba_tab_color.png)
 
@@ -216,12 +222,15 @@ In default, in WiFi page Tab’s chosen color is white `( #ffffff )`, color not 
 
 ```
 
-If developer needs to customize Tab font color, you may rewrite the values of the two colors in res/values/colors.xml files.
+If developer needs to customize Tab font color, you may rewrite the values of the
+two colors in res/values/colors.xml files.
 
 
 ### 8.3 Customize background color in WiFi list page
 
-In default, the background color of WiFi analyze page and WiFi list page are the same gradient color. Please see the picture below for the style:
+In default, the background color of WiFi analyze page and WiFi list page are the
+same gradient color. Please see the picture below for the style:
+
 ![image](http://oquxsbjw1.bkt.clouddn.com/yiba_wifi_bg_old_600.jpg)
 
 If developer changes the theme color to others, for example light green
@@ -260,6 +269,7 @@ See below for the effect:
 ### 8.4 Customize UI style in WiFi analyzer result page
 
 Default WiFi analyzer result page style is as shown below:
+
 ![](http://oquxsbjw1.bkt.clouddn.com/yiba_wifi_jianche_old.jpg)
 
 If developer would like to customize WiFi analyzer result page style, for example to **light green**
