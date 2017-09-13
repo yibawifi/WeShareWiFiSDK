@@ -1,12 +1,12 @@
 
-# WeShare WiFi SDK Integration Instructions 2.3.1 (Standard)
+# WeShare WiFi SDK Integration Instructions 2.3.2 (Standard)
 
 [中文](README_CN.md)
 
 ## 1. Android Studio WiFiSDK quick  integration(mandatory)
 
 ```
-   compile 'com.yiba.sdk:weshareWiFiSDk:2.3.1'
+   compile 'com.yiba.sdk:weshareWiFiSDk:2.3.2'
 ```
 
 **Please Note**
