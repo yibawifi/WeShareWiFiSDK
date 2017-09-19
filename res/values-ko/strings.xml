@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="yiba_wifi_sdk_name">Wi-Fi 관리자</string>
+    <string name="yiba_wifi_tab_name">Wi-Fi 연결</string>
+    <string name="yiba_listview_head_other">기타 Wi-Fi</string>
+    <string name="yiba_listview_head_available">사용 가능한 Wi-Fi</string>
+    <string name="yiba_wifi_describe_mine">저장됨</string>
+    <string name="yiba_wifi_describe_free">공유됨</string>
+    <string name="yiba_wifi_describe_open">공개 Wi-Fi, 직접 연결 가능</string>
+    <string name="yiba_wifi_describe_other">비밀번호 필요</string>
+    <string name="yiba_wifilist_connecting">연결 중...</string>
+    <string name="yiba_wifilist_connect_ok">연결됨</string>
+    <string name="yiba_wifilist_need_verify">이 Wi-Fi는 확인이 필요함</string>
+    <string name="yiba_wifilist_connect_error">연결에 실패함</string>
+    <string name="yiba_wifi_free_wifi_tips">공유된 Wi-Fi는 다른 사용자가 자발적으로 공유하는 것입니다. 귀하께서도 Wi-Fi를 공유하여 다른 사람들의 인터넷 사용을 도우실 수 있길 바랍니다.</string>
+    <string name="yiba_password_imput_hint">비밀번호</string>
+    <string name="yiba_share_checkbox_tip">이 Wi-Fi를 공유합니다. 나는 이 Wi-Fi를 공유할 권한이 있음을 확인합니다.</string>
+    <string name="yiba_connect">연결</string>
+    <string name="yiba_cancel">취소</string>
+    <string name="yiba_wifi_wrong_passwd">잘못된 비밀번호</string>
+    <string name="yiba_wifi_wrong_account_or_pwd">신분 또는 비밀번호 오류</string>
+    <string name="yiba_wifi_item_noconnect_mes">해당 지역에 %1$d개의 Wi-Fi 네트워크가 있습니다.</string>
+    <string name="yiba_wifi_ignore_net">비밀번호 찾기</string>
+    <string name="yiba_wifi_android_m_tips">Android v6.0 이상의 시스템 제한으로 인해, 시스템의 WLAN 설정으로 이동하여 이 네트워크를 삭제하셔야 합니다.</string>
+    <string name="yiba_go">지금 이동</string>
+    <string name="yiba_wifi_verify">확인</string>
+    <string name="yiba_wifi_share">공유</string>
+    <string name="yiba_wifi_setting">기본 Wi-Fi 관리자</string>
+    <string name="yiba_wifi_manager">공유 Wi-Fi 관리자</string>
+    <string name="yiba_share_cancel_share">공유 취소</string>
+    <string name="yiba_share_cancel_success">취소 완료됨</string>
+    <string name="yiba_share_to">%s에 공유</string>
+    <string name="yiba_wifi_shared_success">공유됨</string>
+    <string name="yiba_share_cancel_unable">취소 불가</string>
+    <string name="yiba_wifi_share_text">아직 어떠한 Wi-Fi도 공유하지 않으셨습니다.</string>
+    <string name="yiba_tip_message">모바일 데이터 사용 중입니다. 계속할까요?</string>
+    <string name="yiba_dialog_share_message">이 Wi-Fi 공유를 중지하면 친구들이 인터넷에 액세스하도록 도울 수 없게 됩니다. 계속 진행할까요?</string>
+    <string name="yiba_sure">확인</string>
+    <string name="yiba_dialog_share_tip_message">ID를 확인하려면 연결 비밀번호를 입력해 주시기 바랍니다.</string>
+    <string name="yiba_wifi_unshare_failed">취소 실패</string>
+    <string name="yiba_wifi_unshare_password_error">잘못된 비밀번호로 인해 실패함</string>
+    <string name="yiba_wifi_unshare_timeout">연결 타임아웃</string>
+    <string name="yiba_wifi_network_unavailable">네트워크 사용 불가</string>
+    <string name="yiba_unshare_to">%s에 대한 공유 중지</string>
+    <string name="yiba_wifi_share_tips">개인 Wi-Fi가 공유되고 있는 것을 발견했다면 비밀번호가 유출된 것일 수 있습니다. 이 경우, Wi-Fi 비밀번호를 변경하시는 것이 좋습니다.</string>
+
+
+    <string name="yiba_web_page_no_found">페이지를 찾을 수 없음</string>
+    <string name="yiba_web_page_loading">불러오는 중...</string>
+    <string name="yiba_web_page_retry">다시 시도</string>
+    <string name="yiba_web_Authentication">인증</string>
+    <string name="yiba_no_open_wifi">이용 가능한 핫스팟을 찾도록 Wi-Fi를 켜십시오.</string>
+    <string name="yiba_open_wifi_tv">Wi-Fi 켜기</string>
+    <string name="yiba_wifi_share_empty_sorry">이용 가능한 네트워크가 없습니다.</string>
+    <string name="yiba_wifi_share_empty_pull_to_refresh">Wi-Fi를 찾아보세요. 수동으로 내려 검색할 수 있습니다.</string>
+    <string name="yiba_local_signal">신호</string>
+    <string name="yiba_local_home">홈 페이지</string>
+    <string name="yiba_local_setting">설정</string>
+    <string name="yiba_notification_content">터치하여 연결</string>
+    <string name="yiba_notification_free_wifi_tip">사용 가능한 공유된 Wi-Fi 찾기</string>
+    <string name="yiba_notification_open_wifi_tip">사용 가능한 공용 Wi-Fi 찾기</string>
+
+    <string name="yiba_ad">AD</string>
+    <string name="yiba_ad_fullscreen_connect_info">%s 연결 성공</string>
+    <string name="yiba_ad_fullscreen_title">앱 이름</string>
+    <string name="yiba_ad_download">다운로드</string>
+    <string name="yiba_ad_fullscreen_tv_rate">평가하기</string>
+    <string name="yiba_install">설치</string>
+    <string name="yiba_ad_fullscreen_top_title">Wi-Fi 관리자</string>
+
+    <string name="wifi_eap_method">EAP 방식</string>
+    <string name="please_select_phase2">2단계 인증</string>
+    <string name="wifi_eap_identity">ID</string>
+    <string name="yiba_freewifi_connecting">연결 중</string>
+</resources>

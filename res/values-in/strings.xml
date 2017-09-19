@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="yiba_wifi_sdk_name">Manajer Wi-Fi</string>
+    <string name="yiba_wifi_tab_name">Sambungan Wi-Fi</string>
+    <string name="yiba_listview_head_other">Wi-Fi Lainnya</string>
+    <string name="yiba_listview_head_available">Wi-Fi Tersedia</string>
+    <string name="yiba_wifi_describe_mine">Disimpan</string>
+    <string name="yiba_wifi_describe_free">Dibagikan</string>
+    <string name="yiba_wifi_describe_open">Buka Wi-Fi, Anda dapat langsung tersambung</string>
+    <string name="yiba_wifi_describe_other">Diperlukan sandi</string>
+    <string name="yiba_wifilist_connecting">Menyambungkan...</string>
+    <string name="yiba_wifilist_connect_ok">Tersambung</string>
+    <string name="yiba_wifilist_need_verify">Wi-Fi ini harus diverifikasi</string>
+    <string name="yiba_wifilist_connect_error">Gagal tersambung</string>
+    <string name="yiba_wifi_free_wifi_tips">Wi-Fi Bersama dibagikan secara sukarela oleh pengguna lain. Kami harap Anda juga dapat membagikan Wi-Fi untuk membantu pengguna lain menggunakan Internet</string>
+    <string name="yiba_password_imput_hint">Sandi</string>
+    <string name="yiba_share_checkbox_tip">Bagikan Wi-Fi ini. Saya mengkonfirmasi bahwa saya berwenang untuk membagikannya</string>
+    <string name="yiba_connect">Sambung</string>
+    <string name="yiba_cancel">BATAL</string>
+    <string name="yiba_wifi_wrong_passwd">Sandi salah</string>
+    <string name="yiba_wifi_wrong_account_or_pwd">Identitas atau kata sandi salah</string>
+    <string name="yiba_wifi_item_noconnect_mes">Ada %1$d jaringan Wi-Fi di area ini</string>
+    <string name="yiba_wifi_ignore_net">Lupa sandi</string>
+    <string name="yiba_wifi_android_m_tips">Karena pembatasan sistem Android v6.0 dan versi di atasnya, Anda harus membuka setelan WLAN sistem untuk menghapus jaringan ini</string>
+    <string name="yiba_go">Buka Sekarang</string>
+    <string name="yiba_wifi_verify">Verifikasi</string>
+    <string name="yiba_wifi_share">Bagikan</string>
+    <string name="yiba_wifi_setting">Manajer Wi-Fi Default</string>
+    <string name="yiba_wifi_manager">Manajer Wi-Fi Bersama</string>
+    <string name="yiba_share_cancel_share">Batalkan Berbagi</string>
+    <string name="yiba_share_cancel_success">Berhasil Dibatalkan</string>
+    <string name="yiba_share_to">Bagikan ke %s</string>
+    <string name="yiba_wifi_shared_success">Dibagikan</string>
+    <string name="yiba_share_cancel_unable">Tidak dapat dibatalkan</string>
+    <string name="yiba_wifi_share_text">Anda masih belum membagikan Wi-Fi</string>
+    <string name="yiba_tip_message">Anda menggunakan data seluler. Lanjut?</string>
+    <string name="yiba_dialog_share_message">Jika Anda menghentikan berbagi Wi-Fi ini, Anda tidak dapat membantu teman mengakses Internet. Tetap lanjutkan?</string>
+    <string name="yiba_sure">OK</string>
+    <string name="yiba_dialog_share_tip_message">Untuk memverifikasi identitas Anda, masukkan sandi sambungan</string>
+    <string name="yiba_wifi_unshare_failed">Pembatalan gagal</string>
+    <string name="yiba_wifi_unshare_password_error">Gagal karena sandi salah</string>
+    <string name="yiba_wifi_unshare_timeout">Waktu sambungan habis</string>
+    <string name="yiba_wifi_network_unavailable">Jaringan tidak tersedia</string>
+    <string name="yiba_unshare_to">Hentikan berbagi ke %s</string>
+    <string name="yiba_wifi_share_tips">Jika Anda mendapati bahwa Wi-Fi pribadi Anda telah dibagikan, sandi Anda mungkin tersebar. Jika hal ini terjadi, sebaiknya ganti sandi Wi-Fi Anda</string>
+
+
+    <string name="yiba_web_page_no_found">Halaman tidak ditemukan</string>
+    <string name="yiba_web_page_loading">Memuat...</string>
+    <string name="yiba_web_page_retry">Coba lagi</string>
+    <string name="yiba_web_Authentication">Autentikasi</string>
+    <string name="yiba_no_open_wifi">Aktifkan Wi-Fi untuk men-scan hotspot yang tersedia</string>
+    <string name="yiba_open_wifi_tv">Aktifkan Wi-Fi</string>
+    <string name="yiba_wifi_share_empty_sorry">Maaf, tidak ada jaringan yang tersedia</string>
+    <string name="yiba_wifi_share_empty_pull_to_refresh">Cari Wi-Fi, Anda dapat menarik-turun untuk mencari secara manual</string>
+    <string name="yiba_local_signal">Sinyal</string>
+    <string name="yiba_local_home">Beranda</string>
+    <string name="yiba_local_setting">Setelan</string>
+    <string name="yiba_notification_content">Ketuk untuk sambungkan</string>
+    <string name="yiba_notification_free_wifi_tip">Cari Wi-Fi bersama yang tersedia</string>
+    <string name="yiba_notification_open_wifi_tip">Cari Wi-Fi umum yang tersedia</string>
+
+    <string name="yiba_ad">AD</string>
+    <string name="yiba_ad_fullscreen_connect_info">%s sambungan berhasil</string>
+    <string name="yiba_ad_fullscreen_title">Nama aplikasi</string>
+    <string name="yiba_ad_download">Download</string>
+    <string name="yiba_ad_fullscreen_tv_rate">Beri Nilai</string>
+    <string name="yiba_install">Instal</string>
+    <string name="yiba_ad_fullscreen_top_title">Manajer Wi-Fi</string>
+
+    <string name="wifi_eap_method">Metode EAP</string>
+    <string name="please_select_phase2">Sertifikasi Fase 2</string>
+    <string name="wifi_eap_identity">Identitas</string>
+    <string name="yiba_freewifi_connecting">Menyambungkan</string>
+</resources>

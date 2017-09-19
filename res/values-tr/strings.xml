@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="yiba_wifi_sdk_name">Wi-Fi Yöneticisi</string>
+    <string name="yiba_wifi_tab_name">Wi-Fi Bağlantıları</string>
+    <string name="yiba_listview_head_other">Diğer Wi-Fi Ağları</string>
+    <string name="yiba_listview_head_available">Mevcut Wi-Fi Ağları</string>
+    <string name="yiba_wifi_describe_mine">Kaydedildi</string>
+    <string name="yiba_wifi_describe_free">Paylaşıldı</string>
+    <string name="yiba_wifi_describe_open">Açık Wi-Fi ağı, direkt olarak bağlanabilirsiniz</string>
+    <string name="yiba_wifi_describe_other">Parola gerekli</string>
+    <string name="yiba_wifilist_connecting">Bağlanıyor...</string>
+    <string name="yiba_wifilist_connect_ok">Bağlandı</string>
+    <string name="yiba_wifilist_need_verify">Bu Wi-Fi ağı doğrulanmalı</string>
+    <string name="yiba_wifilist_connect_error">Bağlantı başarısız oldu</string>
+    <string name="yiba_wifi_free_wifi_tips">Paylaşımlı Wi-Fi başka bir kullanıcının kendi isteğiyle paylaşıma açık. Başkalarının İnternet\'i kullanmalarına yardımcı olmak için, sizin de Wi-Fi ağınızı paylaşmanızı umarız</string>
+    <string name="yiba_password_imput_hint">Şifre</string>
+    <string name="yiba_share_checkbox_tip">Bu Wi-Fi ağını paylaş. Paylaşım yetkisine sahip olduğumu onaylıyorum</string>
+    <string name="yiba_connect">Bağlan</string>
+    <string name="yiba_cancel">İptal</string>
+    <string name="yiba_wifi_wrong_passwd">Hatalı parola</string>
+    <string name="yiba_wifi_wrong_account_or_pwd">Kimlik veya şifre yanlış</string>
+    <string name="yiba_wifi_item_noconnect_mes">Bölgede %1$d Wi-Fi ağı bulunuyor</string>
+    <string name="yiba_wifi_ignore_net">Şifremi unuttum</string>
+    <string name="yiba_wifi_android_m_tips">Android v6.0 ve üstü sistemlerdeki sınırlamalar nedeniyle, bu ağı silmek için sistemin WLAN ayarlarına gitmeniz gerekli</string>
+    <string name="yiba_go">Şimdi Git</string>
+    <string name="yiba_wifi_verify">Doğrula</string>
+    <string name="yiba_wifi_share">Paylaş</string>
+    <string name="yiba_wifi_setting">Varsayılan Wi-Fi Yöneticisi</string>
+    <string name="yiba_wifi_manager">Paylaşımlı Wi-Fi Yöneticisi</string>
+    <string name="yiba_share_cancel_share">Paylaşımı İptal Et</string>
+    <string name="yiba_share_cancel_success">Başarıyla İptal Edildi</string>
+    <string name="yiba_share_to">%s ile paylaş</string>
+    <string name="yiba_wifi_shared_success">Paylaşıldı</string>
+    <string name="yiba_share_cancel_unable">İptal edilemiyor</string>
+    <string name="yiba_wifi_share_text">Hala hiçbir Wi-Fi ağını paylaşmadınız</string>
+    <string name="yiba_tip_message">Mobil veri kullanıyorsunuz. Devam edilsin mi?</string>
+    <string name="yiba_dialog_share_message">Bu Wi-Fi ağını paylaşmayı durdurursanız, arkadaşlarınızın İnternet\'e erişmelerine yardımcı olamazsınız. Yine de devam edilsin mi?</string>
+    <string name="yiba_sure">Tamam</string>
+    <string name="yiba_dialog_share_tip_message">Kimliğinizi doğrulamak için, lütfen bağlantı parolasını girin</string>
+    <string name="yiba_wifi_unshare_failed">İptal etme başarısız oldu</string>
+    <string name="yiba_wifi_unshare_password_error">Hatalı parola nedeniyle başarısız</string>
+    <string name="yiba_wifi_unshare_timeout">Bağlantı zamanaşımına uğradı</string>
+    <string name="yiba_wifi_network_unavailable">Ağ kullanılamıyor</string>
+    <string name="yiba_unshare_to">%s ile paylaşımı durdur</string>
+    <string name="yiba_wifi_share_tips">Özel Wi-Fi ağınızın paylaşıldığını fark ettiyseniz, parolanız sızdırılmış olabilir. Bu durumda, Wi-Fi ağ parolanızı değiştirmenizi öneririz.</string>
+
+
+    <string name="yiba_web_page_no_found">Sayfa bulunamadı</string>
+    <string name="yiba_web_page_loading">Yükleniyor...</string>
+    <string name="yiba_web_page_retry">Yeniden Dene</string>
+    <string name="yiba_web_Authentication">Kimlik Doğrulama</string>
+    <string name="yiba_no_open_wifi">Mevcut erişim noktalarını taramak için Wi-Fi ağını açın</string>
+    <string name="yiba_open_wifi_tv">Wi-Fi ağını aç</string>
+    <string name="yiba_wifi_share_empty_sorry">Üzgünüz, mevcut bir ağ bulunmuyor</string>
+    <string name="yiba_wifi_share_empty_pull_to_refresh">Wi-Fi arayın, aramak için elinizle aşağı çekebilirsiniz</string>
+    <string name="yiba_local_signal">Sinyal</string>
+    <string name="yiba_local_home">Ana Sayfa</string>
+    <string name="yiba_local_setting">Ayarlar</string>
+    <string name="yiba_notification_content">Bağlanmak için dokunun</string>
+    <string name="yiba_notification_free_wifi_tip">Mevcut paylaşımlı Wi-Fi ağlarını bul</string>
+    <string name="yiba_notification_open_wifi_tip">Mevcut ortak Wi-Fi ağlarını bul</string>
+
+    <string name="yiba_ad">AD</string>
+    <string name="yiba_ad_fullscreen_connect_info">%s bağlantısı başarılı</string>
+    <string name="yiba_ad_fullscreen_title">Uygulama adı</string>
+    <string name="yiba_ad_download">İndir</string>
+    <string name="yiba_ad_fullscreen_tv_rate">Değerlendir</string>
+    <string name="yiba_install">Yükle</string>
+    <string name="yiba_ad_fullscreen_top_title">Wi-Fi Yöneticisi</string>
+
+    <string name="wifi_eap_method">EAP metodu</string>
+    <string name="please_select_phase2">Aşama 2 sertifika</string>
+    <string name="wifi_eap_identity">Kimlik</string>
+    <string name="yiba_freewifi_connecting">Bağlanıyor</string>
+</resources>

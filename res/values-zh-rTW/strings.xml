@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="yiba_wifi_sdk_name">WiFi 管理員</string>
+    <string name="yiba_wifi_tab_name">WiFi 連線</string>
+    <string name="yiba_listview_head_other">其他 WiFi</string>
+    <string name="yiba_listview_head_available">可用 WiFi</string>
+    <string name="yiba_wifi_describe_mine">已儲存</string>
+    <string name="yiba_wifi_describe_free">已分享</string>
+    <string name="yiba_wifi_describe_open">開啟 WiFi，您可以直接連線 you can directly connect</string>
+    <string name="yiba_wifi_describe_other">需要密碼</string>
+    <string name="yiba_wifilist_connecting">連線中...</string>
+    <string name="yiba_wifilist_connect_ok">已連線</string>
+    <string name="yiba_wifilist_need_verify">需要驗證此 WiFi</string>
+    <string name="yiba_wifilist_connect_error">無法連線</string>
+    <string name="yiba_wifi_free_wifi_tips">分享的 WiFi 已由另一使用者自願分享。我們希望您也可以分享 WiFi，以協助他人使用網際網路</string>
+    <string name="yiba_password_imput_hint">密碼</string>
+    <string name="yiba_share_checkbox_tip">分享此 WiFi。我確認我有分享它的授權</string>
+    <string name="yiba_connect">連線</string>
+    <string name="yiba_cancel">取消</string>
+    <string name="yiba_wifi_wrong_passwd">密碼錯誤</string>
+    <string name="yiba_wifi_wrong_account_or_pwd">身分識別或密碼錯誤</string>
+    <string name="yiba_wifi_item_noconnect_mes">區域內有 %1$d 個 WiFi 網路</string>
+    <string name="yiba_wifi_ignore_net">忘記密碼</string>
+    <string name="yiba_wifi_android_m_tips">因 Android v6.0 以上版本的系統限制，您需要前往系統的 WLAN 設定來刪除此網路</string>
+    <string name="yiba_go">立即前往</string>
+    <string name="yiba_wifi_verify">驗證</string>
+    <string name="yiba_wifi_share">分享</string>
+    <string name="yiba_wifi_setting">預設 WiFi 管理員</string>
+    <string name="yiba_wifi_manager">分享的 WiFi 管理員</string>
+    <string name="yiba_share_cancel_share">取消分享</string>
+    <string name="yiba_share_cancel_success">取消成功</string>
+    <string name="yiba_share_to">分享至 %s</string>
+    <string name="yiba_wifi_shared_success">已分享</string>
+    <string name="yiba_share_cancel_unable">無法取消</string>
+    <string name="yiba_wifi_share_text">您仍無任何分享的 WiFi</string>
+    <string name="yiba_tip_message">您正在使用行動數據。要繼續嗎？</string>
+    <string name="yiba_dialog_share_message">如果您停止分享此 WiFi，便無法協助好友存取網際網路。要繼續嗎？</string>
+    <string name="yiba_sure">確定</string>
+    <string name="yiba_dialog_share_tip_message">若要驗證您的身分識別，請輸入連線密碼</string>
+    <string name="yiba_wifi_unshare_failed">取消失敗</string>
+    <string name="yiba_wifi_unshare_password_error">因密碼錯誤而失敗</string>
+    <string name="yiba_wifi_unshare_timeout">連線逾時</string>
+    <string name="yiba_wifi_network_unavailable">網路無法使用</string>
+    <string name="yiba_unshare_to">停止分享至 %s</string>
+    <string name="yiba_wifi_share_tips">如果您發現已分享您的私人 WiFi，表示您的密碼可能已經遭到洩露。此時我們建議您更換您的 WiFi 密碼</string>
+
+
+    <string name="yiba_web_page_no_found">找不到頁面</string>
+    <string name="yiba_web_page_loading">載入中...</string>
+    <string name="yiba_web_page_retry">重試</string>
+    <string name="yiba_web_Authentication">身分驗證</string>
+    <string name="yiba_no_open_wifi">開啟 WiFi 以掃描可用的熱點</string>
+    <string name="yiba_open_wifi_tv">開啟 WiFi</string>
+    <string name="yiba_wifi_share_empty_sorry">很抱歉，無可以使用的網路</string>
+    <string name="yiba_wifi_share_empty_pull_to_refresh">搜尋 WiFi，您可以手動下拉以進行搜尋</string>
+    <string name="yiba_local_signal">訊號</string>
+    <string name="yiba_local_home">首頁</string>
+    <string name="yiba_local_setting">設定</string>
+    <string name="yiba_notification_content">點擊以連線</string>
+    <string name="yiba_notification_free_wifi_tip">尋找可用的分享 WiFi</string>
+    <string name="yiba_notification_open_wifi_tip">尋找可用的公用 WiFi</string>
+
+    <string name="yiba_ad">AD</string>
+    <string name="yiba_ad_fullscreen_connect_info">%s連線成功</string>
+    <string name="yiba_ad_fullscreen_title">應用程式名稱</string>
+    <string name="yiba_ad_download">下載</string>
+    <string name="yiba_ad_fullscreen_tv_rate">請給它評價</string>
+    <string name="yiba_install">安裝</string>
+    <string name="yiba_ad_fullscreen_top_title">WiFi 管理員</string>
+
+    <string name="wifi_eap_method">EAP 方法</string>
+    <string name="please_select_phase2">階段 2 憑證</string>
+    <string name="wifi_eap_identity">身分識別</string>
+    <string name="yiba_freewifi_connecting">連線中</string>
+    <string name="yiba_guide_flow_title">抱歉，免費WiFi服務已經暫停，\n請下載weshare繼續連接免費WiFi</string>
+    <string name="yiba_guide_flow_app_name">WeShare</string>
+    <string name="yiba_guide_flow_app_des">隨時隨地連接免費WiFi</string>
+</resources>

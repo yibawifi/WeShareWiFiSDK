@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="yiba_wifi_sdk_name">Gerenciador de Wi-Fi</string>
+    <string name="yiba_wifi_tab_name">Conexões de Wi-Fi</string>
+    <string name="yiba_listview_head_other">Outro Wi-Fi</string>
+    <string name="yiba_listview_head_available">Wi-Fi disponível</string>
+    <string name="yiba_wifi_describe_mine">Salvo</string>
+    <string name="yiba_wifi_describe_free">Compartilhado</string>
+    <string name="yiba_wifi_describe_open">Wi-Fi aberto, conecte-se diretamente</string>
+    <string name="yiba_wifi_describe_other">Requer senha</string>
+    <string name="yiba_wifilist_connecting">Conectando...</string>
+    <string name="yiba_wifilist_connect_ok">Conectado</string>
+    <string name="yiba_wifilist_need_verify">Este Wi-Fi deve ser verificado</string>
+    <string name="yiba_wifilist_connect_error">Falha ao se conectar</string>
+    <string name="yiba_wifi_free_wifi_tips">Wi-Fi compartilhado foi compartilhado voluntariamente por outro usuário. Esperamos que você também possa compartilhar Wi-Fi para ajudar outros a usarem a Internet</string>
+    <string name="yiba_password_imput_hint">Senha</string>
+    <string name="yiba_share_checkbox_tip">Compartilhar este Wi-Fi. Confirmo que estou autorizado a compartilhá-lo</string>
+    <string name="yiba_connect">Conectar</string>
+    <string name="yiba_cancel">Cancelar</string>
+    <string name="yiba_wifi_wrong_passwd">Senha incorreta</string>
+    <string name="yiba_wifi_wrong_account_or_pwd">Identidade ou senha errada</string>
+    <string name="yiba_wifi_item_noconnect_mes">Há %1$d rede(s) de Wi-Fi na área</string>
+    <string name="yiba_wifi_ignore_net">Esquecer senha</string>
+    <string name="yiba_wifi_android_m_tips">Por conta das restrições do sistema Android v6.0 e superior, você precisa ir até as configurações WLAN do sistema para excluir esta rede</string>
+    <string name="yiba_go">Ir agora</string>
+    <string name="yiba_wifi_verify">Verificar</string>
+    <string name="yiba_wifi_share">Compartilhar</string>
+    <string name="yiba_wifi_setting">Gerenciador de Wi-Fi padrão</string>
+    <string name="yiba_wifi_manager">Gerenciador de Wi-Fi compartilhado</string>
+    <string name="yiba_share_cancel_share">Cancelar compartilhamento</string>
+    <string name="yiba_share_cancel_success">Cancelado com sucesso</string>
+    <string name="yiba_share_to">Compartilhar com %s</string>
+    <string name="yiba_wifi_shared_success">Compartilhado</string>
+    <string name="yiba_share_cancel_unable">Impossível cancelar</string>
+    <string name="yiba_wifi_share_text">Você ainda não compartilhou nenhum Wi-Fi</string>
+    <string name="yiba_tip_message">Você está usando dados móveis. Continuar?</string>
+    <string name="yiba_dialog_share_message">Se você parar o compartilhamento deste Wi-Fi, não poderá ajudar os amigos a acessar a Internet. Continuar mesmo assim?</string>
+    <string name="yiba_sure">OK</string>
+    <string name="yiba_dialog_share_tip_message">Para verificar sua identidade, insira a senha de conexão</string>
+    <string name="yiba_wifi_unshare_failed">Cancelamento falhou</string>
+    <string name="yiba_wifi_unshare_password_error">Falhou devido a senha incorreta</string>
+    <string name="yiba_wifi_unshare_timeout">Tempo limite de conexão</string>
+    <string name="yiba_wifi_network_unavailable">Rede indisponível</string>
+    <string name="yiba_unshare_to">Interromper compartilhamento com %s</string>
+    <string name="yiba_wifi_share_tips">Se descobrir que seu Wi-Fi privado foi compartilhado, sua senha pode ter sido vazada. Neste caso, sugerimos mudar sua senha do Wi-Fi</string>
+
+
+    <string name="yiba_web_page_no_found">Página não encontrada</string>
+    <string name="yiba_web_page_loading">Carregando...</string>
+    <string name="yiba_web_page_retry">Tentar novamente</string>
+    <string name="yiba_web_Authentication">Autenticação</string>
+    <string name="yiba_no_open_wifi">Ligar Wi-Fi para verificar pontos disponíveis</string>
+    <string name="yiba_open_wifi_tv">Ligar Wi-Fi</string>
+    <string name="yiba_wifi_share_empty_sorry">Não há redes disponíveis</string>
+    <string name="yiba_wifi_share_empty_pull_to_refresh">Buscar por Wi-Fi, você pode realizar a busca manualmente</string>
+    <string name="yiba_local_signal">Sinal</string>
+    <string name="yiba_local_home">Página inicial</string>
+    <string name="yiba_local_setting">Configurações</string>
+    <string name="yiba_notification_content">Toque para conectar</string>
+    <string name="yiba_notification_free_wifi_tip">Encontrar Wi-Fi compartilhado disponível</string>
+    <string name="yiba_notification_open_wifi_tip">Encontrar Wi-Fi público disponível</string>
+
+    <string name="yiba_ad">AD</string>
+    <string name="yiba_ad_fullscreen_connect_info">%s conexão bem-sucedida</string>
+    <string name="yiba_ad_fullscreen_title">Nome do aplicativo</string>
+    <string name="yiba_ad_download">Baixar</string>
+    <string name="yiba_ad_fullscreen_tv_rate">Avalie</string>
+    <string name="yiba_install">Instalar</string>
+    <string name="yiba_ad_fullscreen_top_title">Gerenciador de Wi-Fi</string>
+
+    <string name="wifi_eap_method">Método EAP</string>
+    <string name="please_select_phase2">Certificação de fase 2</string>
+    <string name="wifi_eap_identity">Identidade</string>
+    <string name="yiba_freewifi_connecting">Conectando</string>
+</resources>

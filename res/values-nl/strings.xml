@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="yiba_wifi_sdk_name">Wi-Fi-beheer</string>
+    <string name="yiba_wifi_tab_name">Wi-Fi-verbindingen</string>
+    <string name="yiba_listview_head_other">Overige Wi-Fi</string>
+    <string name="yiba_listview_head_available">Beschikbare Wi-Fi</string>
+    <string name="yiba_wifi_describe_mine">Opgeslagen</string>
+    <string name="yiba_wifi_describe_free">Gedeeld</string>
+    <string name="yiba_wifi_describe_open">Wi-Fi inschakelen. U kunt direct verbinding maken</string>
+    <string name="yiba_wifi_describe_other">Wachtwoord vereist</string>
+    <string name="yiba_wifilist_connecting">Verbinding maken...</string>
+    <string name="yiba_wifilist_connect_ok">Verbonden</string>
+    <string name="yiba_wifilist_need_verify">Deze Wi-Fi moet worden geverifieerd</string>
+    <string name="yiba_wifilist_connect_error">Kan geen verbinding maken</string>
+    <string name="yiba_wifi_free_wifi_tips">Gedeelde Wi-Fi wordt vrijwillig gedeeld door een andere gebruiker. We hopen dat ook u Wi-Fi kunt delen om anderen te helpen internet te gebruiken</string>
+    <string name="yiba_password_imput_hint">Wachtwoord</string>
+    <string name="yiba_share_checkbox_tip">Deze Wi-Fi delen. Ik bevestig dat ik geautoriseerd ben om dit te delen</string>
+    <string name="yiba_connect">Verbinding maken</string>
+    <string name="yiba_cancel">Annuleren</string>
+    <string name="yiba_wifi_wrong_passwd">Onjuist wachtwoord</string>
+    <string name="yiba_wifi_wrong_account_or_pwd">De identiteit of de fout wachtwoord.</string>
+    <string name="yiba_wifi_item_noconnect_mes">Er is/zijn %1$d Wi-Fi-netwerk(en) in de omgeving</string>
+    <string name="yiba_wifi_ignore_net">Wachtwoord vergeten</string>
+    <string name="yiba_wifi_android_m_tips">Vanwege de systeembeperkingen van Android 6.0 en hoger moet u naar de Wi-Fi-instellingen van het systeem gaan om dit netwerk te verwijderen</string>
+    <string name="yiba_go">Ga nu</string>
+    <string name="yiba_wifi_verify">Verifiëren</string>
+    <string name="yiba_wifi_share">Delen</string>
+    <string name="yiba_wifi_setting">Wi-Fi-beheer (standaard)</string>
+    <string name="yiba_wifi_manager">Wi-Fi-beheer (gedeeld)</string>
+    <string name="yiba_share_cancel_share">Delen annuleren</string>
+    <string name="yiba_share_cancel_success">Geannuleerd</string>
+    <string name="yiba_share_to">Delen met %s</string>
+    <string name="yiba_wifi_shared_success">Gedeeld</string>
+    <string name="yiba_share_cancel_unable">Kan niet annuleren</string>
+    <string name="yiba_wifi_share_text">U heeft nog steeds geen Wi-Fi gedeeld</string>
+    <string name="yiba_tip_message">U verbruikt mobiele data. Doorgaan?</string>
+    <string name="yiba_dialog_share_message">Als u het delen van deze Wi-Fi stopt, kunt u vrienden niet helpen toegang tot internet te krijgen. Toch doorgaan?</string>
+    <string name="yiba_sure">OK</string>
+    <string name="yiba_dialog_share_tip_message">Voer het wachtwoord voor de verbinding in ter verificatie van uw identiteit</string>
+    <string name="yiba_wifi_unshare_failed">Annuleren mislukt</string>
+    <string name="yiba_wifi_unshare_password_error">Mislukt vanwege onjuist wachtwoord</string>
+    <string name="yiba_wifi_unshare_timeout">Time-out verbinding</string>
+    <string name="yiba_wifi_network_unavailable">Netwerk niet beschikbaar</string>
+    <string name="yiba_unshare_to">Delen met %s stoppen</string>
+    <string name="yiba_wifi_share_tips">Als u ontdekt dat uw privé-Wi-Fi is gedeeld, is uw wachtwoord mogelijk gelekt. In dit geval raden we aan uw wachtwoord voor Wi-Fi te wijzigen</string>
+
+
+    <string name="yiba_web_page_no_found">Pagina niet gevonden</string>
+    <string name="yiba_web_page_loading">Laden...</string>
+    <string name="yiba_web_page_retry">Opnieuw proberen</string>
+    <string name="yiba_web_Authentication">Authenticatie</string>
+    <string name="yiba_no_open_wifi">Wi-Fi inschakelen om te scannen op beschikbare hotspots</string>
+    <string name="yiba_open_wifi_tv">Wi-Fi inschakelen</string>
+    <string name="yiba_wifi_share_empty_sorry">Er zijn geen netwerken beschikbaar</string>
+    <string name="yiba_wifi_share_empty_pull_to_refresh">Zoeken naar Wi-Fi. U kunt handmatig naar beneden trekken om te zoeken</string>
+    <string name="yiba_local_signal">Signaal</string>
+    <string name="yiba_local_home">Startpagina</string>
+    <string name="yiba_local_setting">Instellingen</string>
+    <string name="yiba_notification_content">Tik om verbinding te maken</string>
+    <string name="yiba_notification_free_wifi_tip">Beschikbare gedeelde Wi-Fi zoeken</string>
+    <string name="yiba_notification_open_wifi_tip">Beschikbare openbare Wi-Fi zoeken</string>
+
+    <string name="yiba_ad">AD</string>
+    <string name="yiba_ad_fullscreen_connect_info">%s verbonden</string>
+    <string name="yiba_ad_fullscreen_title">App-naam</string>
+    <string name="yiba_ad_download">Downloaden</string>
+    <string name="yiba_ad_fullscreen_tv_rate">Beoordelen</string>
+    <string name="yiba_install">Installeren</string>
+    <string name="yiba_ad_fullscreen_top_title">Wi-Fi-beheer</string>
+
+    <string name="wifi_eap_method">EAP-methode</string>
+    <string name="please_select_phase2">Phase 2-verificatie</string>
+    <string name="wifi_eap_identity">Identiteit</string>
+    <string name="yiba_freewifi_connecting">Verbinding maken</string>
+</resources>

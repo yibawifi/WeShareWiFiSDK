@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="yiba_wifi_sdk_name">Диспетчер мереж Wi-Fi</string>
+    <string name="yiba_wifi_tab_name">З’єднання Wi-Fi</string>
+    <string name="yiba_listview_head_other">Інші мережі Wi-Fi</string>
+    <string name="yiba_listview_head_available">Доступні мережі Wi-Fi</string>
+    <string name="yiba_wifi_describe_mine">Збережена</string>
+    <string name="yiba_wifi_describe_free">У спільному доступі</string>
+    <string name="yiba_wifi_describe_open">Відкрита мережа Wi-Fi</string>
+    <string name="yiba_wifi_describe_other">Потрібен пароль</string>
+    <string name="yiba_wifilist_connecting">Підключення...</string>
+    <string name="yiba_wifilist_connect_ok">Підключено</string>
+    <string name="yiba_wifilist_need_verify">Цю мережу Wi-Fi необхідно підтвердити</string>
+    <string name="yiba_wifilist_connect_error">Не вдалося підключитися</string>
+    <string name="yiba_wifi_free_wifi_tips">Мережа Wi-Fi зі спільним доступом — це мережа, якою добровільно поділився інший користувач. Сподіваємося, ви також поділитеся своєю мережею Wi-Fi, щоб допомогти іншим підключитися до Інтернету</string>
+    <string name="yiba_password_imput_hint">Пароль</string>
+    <string name="yiba_share_checkbox_tip">Поділитися цією мережею Wi-Fi. Я підтверджую, що маю на це право</string>
+    <string name="yiba_connect">Підключитися</string>
+    <string name="yiba_cancel">СКАСУВАТИ</string>
+    <string name="yiba_wifi_wrong_passwd">Неправильний пароль</string>
+    <string name="yiba_wifi_wrong_account_or_pwd">Ідентифікація чи пароль неправильні</string>
+    <string name="yiba_wifi_item_noconnect_mes">У цьому місці виявлено стільки мереж Wi-Fi: %1$d</string>
+    <string name="yiba_wifi_ignore_net">Забули пароль</string>
+    <string name="yiba_wifi_android_m_tips">У зв’язку із системними обмеженнями Android 6.0 і пізніших версій потрібно перейти в налаштування WLAN на пристрої, щоб видалити цю мережу</string>
+    <string name="yiba_go">Перейти</string>
+    <string name="yiba_wifi_verify">Підтвердити</string>
+    <string name="yiba_wifi_share">Поділитися</string>
+    <string name="yiba_wifi_setting">Диспетчер мереж Wi-Fi за умовчанням</string>
+    <string name="yiba_wifi_manager">Диспетчер мереж Wi-Fi зі спільним доступом</string>
+    <string name="yiba_share_cancel_share">Скасувати спільний доступ</string>
+    <string name="yiba_share_cancel_success">Скасовано</string>
+    <string name="yiba_share_to">Надати доступ %s</string>
+    <string name="yiba_wifi_shared_success">Надано доступ</string>
+    <string name="yiba_share_cancel_unable">Не вдалося скасувати</string>
+    <string name="yiba_wifi_share_text">Ви досі не поділилися жодною мережею Wi-Fi</string>
+    <string name="yiba_tip_message">Ви використовуєте мобільний трафік. Продовжити?</string>
+    <string name="yiba_dialog_share_message">Якщо ви скасуєте спільний доступ до цієї мережі Wi-Fi, ваші друзі не зможуть підключитися до Інтернету. Продовжити?</string>
+    <string name="yiba_sure">ОК</string>
+    <string name="yiba_dialog_share_tip_message">Щоб підтвердити свою особу, введіть пароль для підключення</string>
+    <string name="yiba_wifi_unshare_failed">Не вдалося скасувати</string>
+    <string name="yiba_wifi_unshare_password_error">Не вдалося скасувати доступ через неправильний пароль</string>
+    <string name="yiba_wifi_unshare_timeout">Час очікування з’єднання закінчився</string>
+    <string name="yiba_wifi_network_unavailable">Мережа недоступна</string>
+    <string name="yiba_unshare_to">Скасувати доступ для користувача %s</string>
+    <string name="yiba_wifi_share_tips">Якщо ви виявили, що до вашої приватної мережі Wi-Fi надано доступ, можливо, хтось дізнався ваш пароль. У такому разі рекомендуємо змінити пароль мережі Wi-Fi</string>
+
+
+    <string name="yiba_web_page_no_found">Сторінку не знайдено</string>
+    <string name="yiba_web_page_loading">Завантаження...</string>
+    <string name="yiba_web_page_retry">Спробувати знову</string>
+    <string name="yiba_web_Authentication">Автентифікація</string>
+    <string name="yiba_no_open_wifi">Увімкніть Wi-Fi, щоб виконати пошук точок доступу</string>
+    <string name="yiba_open_wifi_tv">Увімкнути Wi-Fi</string>
+    <string name="yiba_wifi_share_empty_sorry">На жаль, немає доступних мереж</string>
+    <string name="yiba_wifi_share_empty_pull_to_refresh">Щоб шукати мережі Wi-Fi, потягніть сторінку вниз</string>
+    <string name="yiba_local_signal">Сигнал</string>
+    <string name="yiba_local_home">Головна сторінка</string>
+    <string name="yiba_local_setting">Настройки</string>
+    <string name="yiba_notification_content">Торкніться, щоб підключитися</string>
+    <string name="yiba_notification_free_wifi_tip">Знайдіть наявні мережі Wi-Fi зі спільним доступом</string>
+    <string name="yiba_notification_open_wifi_tip">Знайдіть наявні загальнодоступні мережі Wi-Fi</string>
+
+    <string name="yiba_ad">AD</string>
+    <string name="yiba_ad_fullscreen_connect_info">Підключено до мережі %s</string>
+    <string name="yiba_ad_fullscreen_title">Назва додатка</string>
+    <string name="yiba_ad_download">Завантажити</string>
+    <string name="yiba_ad_fullscreen_tv_rate">Оцініть додаток</string>
+    <string name="yiba_install">Установити</string>
+    <string name="yiba_ad_fullscreen_top_title">Диспетчер мереж Wi-Fi</string>
+
+    <string name="wifi_eap_method">Метод EAP</string>
+    <string name="please_select_phase2">Сертифікація у фазі 2</string>
+    <string name="wifi_eap_identity">Ідентифікація</string>
+    <string name="yiba_freewifi_connecting">Підключення</string>
+</resources>

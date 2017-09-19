@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="yiba_wifi_sdk_name">ตัวจัดการ Wi-Fi</string>
+    <string name="yiba_wifi_tab_name">การเชื่อมต่อ Wi-Fi</string>
+    <string name="yiba_listview_head_other">Wi-Fi อื่นๆ</string>
+    <string name="yiba_listview_head_available">Wi-Fi ที่มี</string>
+    <string name="yiba_wifi_describe_mine">บันทึกแล้ว</string>
+    <string name="yiba_wifi_describe_free">แบ่งปันแล้ว</string>
+    <string name="yiba_wifi_describe_open">เปิด Wi-Fi คุณสามารถเชื่อมต่อได้โดยตรง</string>
+    <string name="yiba_wifi_describe_other">ต้องมีรหัสผ่าน</string>
+    <string name="yiba_wifilist_connecting">กำลังเชื่อมต่อ...</string>
+    <string name="yiba_wifilist_connect_ok">เชื่อมต่อแล้ว</string>
+    <string name="yiba_wifilist_need_verify">จะต้องรับรองความปลอดภัย Wi-Fi นี้</string>
+    <string name="yiba_wifilist_connect_error">เชื่อมต่อไม่สำเร็จ</string>
+    <string name="yiba_wifi_free_wifi_tips">ผู้ใช้อีกคนหนึ่งสมัครใจแบ่งปัน Wi-Fi เราหวังว่าคุณก็สามารถแบ่งปัน Wi-Fi เพื่อช่วยให้คนอื่นได้ใช้อินเทอร์เน็ต</string>
+    <string name="yiba_password_imput_hint">รหัสผ่าน</string>
+    <string name="yiba_share_checkbox_tip">แบ่งปัน Wi-Fi นี้ ฉันยืนยันว่าฉันได้รับอนุญาตให้แบ่งปัน</string>
+    <string name="yiba_connect">เชื่อมต่อ</string>
+    <string name="yiba_cancel">ยกเลิก</string>
+    <string name="yiba_wifi_wrong_passwd">รหัสผ่านไม่ถูกต้อง</string>
+    <string name="yiba_wifi_wrong_account_or_pwd">ข้อมูลประจำตัว หรือรหัสผ่านผิด</string>
+    <string name="yiba_wifi_item_noconnect_mes">มี %1$d เครือข่าย Wi-Fi ในพื้นที่นี้</string>
+    <string name="yiba_wifi_ignore_net">ลืมรหัสผ่าน</string>
+    <string name="yiba_wifi_android_m_tips">เนื่องจากข้อจำกัดของระบบ Android v6.0 หรือสูงกว่า คุณต้องลบเครือข่ายนี้ในการตั้งค่า WLAN ของระบบ</string>
+    <string name="yiba_go">ทำได้ตอนนี้เลย</string>
+    <string name="yiba_wifi_verify">ตรวจสอบ</string>
+    <string name="yiba_wifi_share">แบ่งปัน</string>
+    <string name="yiba_wifi_setting">ตัวจัดการ Wi-Fi เริ่มต้น</string>
+    <string name="yiba_wifi_manager">ตัวจัดการ Wi-Fi ที่แบ่งปัน</string>
+    <string name="yiba_share_cancel_share">ยกเลิกการแบ่งปัน</string>
+    <string name="yiba_share_cancel_success">ยกเลิกสำเร็จแล้ว</string>
+    <string name="yiba_share_to">แบ่งปันไปยัง %s</string>
+    <string name="yiba_wifi_shared_success">แบ่งปันแล้ว</string>
+    <string name="yiba_share_cancel_unable">ไม่สามารถยกเลิกได้</string>
+    <string name="yiba_wifi_share_text">คุณยังไม่ได้แบ่งปัน Wi-Fi ใดๆ เลย</string>
+    <string name="yiba_tip_message">คุณกำลังใช้ข้อมูลมือถือ ดำเนินการต่อหรือไม่</string>
+    <string name="yiba_dialog_share_message">ถ้าคุณเลิกแบ่งปัน Wi-Fi นี้ เพื่อนๆ ของคุณจะไม่สามารถใช้อินเทอร์เน็ตนี้ ดำเนินการต่อหรือไม่</string>
+    <string name="yiba_sure">ตกลง</string>
+    <string name="yiba_dialog_share_tip_message">เพื่อยืนยันตัวตนของคุณ โปรดป้อนรหัสการเชื่อมต่อ</string>
+    <string name="yiba_wifi_unshare_failed">การยกเลิกล้มเหลว</string>
+    <string name="yiba_wifi_unshare_password_error">ล้มเหลวเนื่องจากรหัสผ่านไม่ถูกต้อง</string>
+    <string name="yiba_wifi_unshare_timeout">การเชื่อมต่อหมดเวลา</string>
+    <string name="yiba_wifi_network_unavailable">ไม่สามารถใช้เครือข่ายได้</string>
+    <string name="yiba_unshare_to">ยกเลิกการแบ่งปันไปยัง %s</string>
+    <string name="yiba_wifi_share_tips">ถ้าคุณพบว่า Wi-Fi ส่วนตัวของคุณถูกแบ่งปัน เป็นไปได้ว่ารหัสผ่านของคุณรั่วไหล ในกรณีนี้เราขอแนะนำให้คุณเปลี่ยนรหัสผ่าน Wi-Fi</string>
+
+
+    <string name="yiba_web_page_no_found">ไม่พบหน้า</string>
+    <string name="yiba_web_page_loading">กำลังโหลด...</string>
+    <string name="yiba_web_page_retry">ลองอีกครั้ง</string>
+    <string name="yiba_web_Authentication">การยืนยันตัวตน</string>
+    <string name="yiba_no_open_wifi">เปิด Wi-Fi เพื่อสแกนหา Hotspot ที่ใช้งานได้</string>
+    <string name="yiba_open_wifi_tv">เปิด Wi-Fi</string>
+    <string name="yiba_wifi_share_empty_sorry">ขออภัย ไม่มีเครือข่ายที่ใช้งานได้</string>
+    <string name="yiba_wifi_share_empty_pull_to_refresh">ค้นหา Wi-Fi คุณสามารถหยุดการค้นหาด้วยตัวเอง</string>
+    <string name="yiba_local_signal">สัญญาณ</string>
+    <string name="yiba_local_home">หน้าหลัก</string>
+    <string name="yiba_local_setting">การตั้งค่า</string>
+    <string name="yiba_notification_content">แตะเพื่อเชื่อมต่อ</string>
+    <string name="yiba_notification_free_wifi_tip">ค้นหา Wi-Fi ที่ผู้อื่นแบ่งปันและใช้งานได้</string>
+    <string name="yiba_notification_open_wifi_tip">ค้นหา Wi-Fi สาธารณะที่ใช้งานได้</string>
+
+    <string name="yiba_ad">AD</string>
+    <string name="yiba_ad_fullscreen_connect_info">%s การเชื่อมต่อสำเร็จแล้ว</string>
+    <string name="yiba_ad_fullscreen_title">ชื่อแอพ:</string>
+    <string name="yiba_ad_download">ดาวน์โหลด</string>
+    <string name="yiba_ad_fullscreen_tv_rate">ให้คะแนน</string>
+    <string name="yiba_install">ติดตั้ง</string>
+    <string name="yiba_ad_fullscreen_top_title">ตัวจัดการ Wi-Fi</string>
+
+    <string name="wifi_eap_method">วิธีการ EAP</string>
+    <string name="please_select_phase2">ใบรับรองช่วงที่ 2</string>
+    <string name="wifi_eap_identity">ข้อมูลประจำตัว</string>
+    <string name="yiba_freewifi_connecting">กำลังเชื่อมต่อ</string>
+</resources>

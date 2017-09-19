@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="yiba_wifi_sdk_name">مدير شبكة Wi-Fi</string>
+    <string name="yiba_wifi_tab_name">اتصالات شبكة Wi-Fi</string>
+    <string name="yiba_listview_head_other">شبكة Wi-Fi أخرى</string>
+    <string name="yiba_listview_head_available">شبكة Wi-Fi متاحة</string>
+    <string name="yiba_wifi_describe_mine">تم الحفظ</string>
+    <string name="yiba_wifi_describe_free">تمت المشاركة</string>
+    <string name="yiba_wifi_describe_open">شبكة Wi-Fi مفتوحة، يمكنك الاتصال مباشرةً</string>
+    <string name="yiba_wifi_describe_other">كلمة المرور مطلوبة</string>
+    <string name="yiba_wifilist_connecting">جارٍ الاتصال...</string>
+    <string name="yiba_wifilist_connect_ok">تم الاتصال</string>
+    <string name="yiba_wifilist_need_verify">يجب إثبات ملكية شبكة Wi-Fi هذه</string>
+    <string name="yiba_wifilist_connect_error">فشل الاتصال</string>
+    <string name="yiba_wifi_free_wifi_tips">تتم مشاركة شبكة Wi-Fi المشتركة بواسطة مستخدم آخر طوعًا. نتمنى أن تتمكن أيضًا من مشاركة شبكة Wi-Fi لمساعدة الآخرين على استخدام الإنترنت</string>
+    <string name="yiba_password_imput_hint">كلمة المرور</string>
+    <string name="yiba_share_checkbox_tip">شارك شبكة Wi-Fi هذه. أؤكد على أنه مصرّح لي بمشاركتها</string>
+    <string name="yiba_connect">اتصال</string>
+    <string name="yiba_cancel">إلغاء</string>
+    <string name="yiba_wifi_wrong_passwd">كلمة مرور غير صحيحة</string>
+    <string name="yiba_wifi_wrong_account_or_pwd">الهوية أو  كلمة السر خطأ </string>
+    <string name="yiba_wifi_item_noconnect_mes">توجد %1$d شبكة (شبكات) Wi-Fi في المنطقة</string>
+    <string name="yiba_wifi_ignore_net">حذف كلمة المرور</string>
+    <string name="yiba_wifi_android_m_tips">نظرًا لقيود النظام الخاصة بالإصدار 6.0 من نظام التشغيل Android والأحدث، يتعين عليك الانتقال إلى إعدادات WLAN بالنظام لحذف هذه الشبكة</string>
+    <string name="yiba_go">انتقال الآن</string>
+    <string name="yiba_wifi_verify">إثبات الملكية</string>
+    <string name="yiba_wifi_share">المشاركة</string>
+    <string name="yiba_wifi_setting">مدير شبكة Wi-Fi الافتراضي</string>
+    <string name="yiba_wifi_manager">مدير شبكة Wi-Fi المشتركة</string>
+    <string name="yiba_share_cancel_share">إلغاء المشاركة</string>
+    <string name="yiba_share_cancel_success">تم الإلغاء بنجاح</string>
+    <string name="yiba_share_to">مشاركة إلى %s</string>
+    <string name="yiba_wifi_shared_success">تمت المشاركة</string>
+    <string name="yiba_share_cancel_unable">لا يمكن الإلغاء</string>
+    <string name="yiba_wifi_share_text">لم تقم بمشاركة أي شبكة Wi-Fi بعد</string>
+    <string name="yiba_tip_message">أنت تستخدم بيانات الهاتف المحمول. هل تريد المتابعة؟</string>
+    <string name="yiba_dialog_share_message">في حالة توقفك عن مشاركة شبكة Wi-Fi هذه، لن تتمكن من مساعدة الأصدقاء في الدخول إلى الإنترنت. هل تريد المتابعة في جميع الأحوال؟</string>
+    <string name="yiba_sure">موافق</string>
+    <string name="yiba_dialog_share_tip_message">لإثبات ملكية هويتك، يُرجى إدخال كلمة المرور الخاصة بالاتصال</string>
+    <string name="yiba_wifi_unshare_failed">فشل الإلغاء</string>
+    <string name="yiba_wifi_unshare_password_error">فشل بسبب كلمة مرور غير صحيحة</string>
+    <string name="yiba_wifi_unshare_timeout">مهلة الاتصال</string>
+    <string name="yiba_wifi_network_unavailable">الشبكة غير متاحة</string>
+    <string name="yiba_unshare_to">إيقاف المشاركة إلى %s</string>
+    <string name="yiba_wifi_share_tips">إذا اكتشفت أن شبكة Wi-Fi الخاصة تمت مشاركتها، فربما يكون قد تم تسريب كلمة مرورك. في هذه الحالة، ننصح بتغيير كلمة مرور شبكة Wi-Fi</string>
+
+
+    <string name="yiba_web_page_no_found">لم يتم العثور على الصفحة</string>
+    <string name="yiba_web_page_loading">جارٍ التحميل...</string>
+    <string name="yiba_web_page_retry">إعادة المحاولة</string>
+    <string name="yiba_web_Authentication">مصادقة</string>
+    <string name="yiba_no_open_wifi">تشغيل شبكة Wi-Fi للبحث عن نقاط اتصال متاحة</string>
+    <string name="yiba_open_wifi_tv">تشغيل شبكة Wi-Fi</string>
+    <string name="yiba_wifi_share_empty_sorry">عذرًا، لا توجد شبكات متاحة</string>
+    <string name="yiba_wifi_share_empty_pull_to_refresh">بحث عن شبكة Wi-Fi، يمكنك السحب لأسفل يدويًا للبحث</string>
+    <string name="yiba_local_signal">الإشارة</string>
+    <string name="yiba_local_home">الصفحة الرئيسية</string>
+    <string name="yiba_local_setting">الإعدادات</string>
+    <string name="yiba_notification_content">النقر للاتصال</string>
+    <string name="yiba_notification_free_wifi_tip">العثور على شبكة Wi-Fi مشتركة متاحة</string>
+    <string name="yiba_notification_open_wifi_tip">العثور على شبكة Wi-Fi عامة متاحة</string>
+
+    <string name="yiba_ad">AD</string>
+    <string name="yiba_ad_fullscreen_connect_info">%s اتصال ناجح</string>
+    <string name="yiba_ad_fullscreen_title">اسم التطبيق</string>
+    <string name="yiba_ad_download">تنزيل</string>
+    <string name="yiba_ad_fullscreen_tv_rate">تقييمه</string>
+    <string name="yiba_install">تثبيت</string>
+    <string name="yiba_ad_fullscreen_top_title">مدير شبكة Wi-Fi</string>
+
+    <string name="wifi_eap_method">طريقة EAP</string>
+    <string name="please_select_phase2">اعتماد المرحلة الثانية</string>
+    <string name="wifi_eap_identity">الهوية</string>
+    <string name="yiba_freewifi_connecting">جارٍ الاتصال</string>
+</resources>

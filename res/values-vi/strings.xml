@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="yiba_wifi_sdk_name">Trình quản lý Wi-Fi</string>
+    <string name="yiba_wifi_tab_name">Kết nối Wi-Fi</string>
+    <string name="yiba_listview_head_other">Wi-Fi Khác</string>
+    <string name="yiba_listview_head_available">Wi-Fi Có sẵn</string>
+    <string name="yiba_wifi_describe_mine">Đã lưu</string>
+    <string name="yiba_wifi_describe_free">Đã chia sẻ</string>
+    <string name="yiba_wifi_describe_open">Mở Wi-Fi, bạn có thể kết nối trực tiếp</string>
+    <string name="yiba_wifi_describe_other">Yêu cầu mật khẩu</string>
+    <string name="yiba_wifilist_connecting">Đang kết nối...</string>
+    <string name="yiba_wifilist_connect_ok">Đã kết nối</string>
+    <string name="yiba_wifilist_need_verify">Cần xác minh Wi-Fi này</string>
+    <string name="yiba_wifilist_connect_error">Kết nối không thành công</string>
+    <string name="yiba_wifi_free_wifi_tips">Wi-Fi chia sẻ được người dùng khác chia sẻ một cách tự nguyện. Chúng tôi hy vọng bạn cũng có thể chia sẻ Wi-Fi để giúp những người khác sử dụng Internet</string>
+    <string name="yiba_password_imput_hint">Mật khẩu</string>
+    <string name="yiba_share_checkbox_tip">Chia sẻ Wi-Fi này. Tôi xác nhận rằng tôi được ủy quyền để chia sẻ</string>
+    <string name="yiba_connect">Kết nối</string>
+    <string name="yiba_cancel">Hủy</string>
+    <string name="yiba_wifi_wrong_passwd">Mật khẩu không chính xác</string>
+    <string name="yiba_wifi_wrong_account_or_pwd">Danh tính hoặc mật khẩu sai</string>
+    <string name="yiba_wifi_item_noconnect_mes">Có %1$d mạng Wi-Fi trong khu vực này</string>
+    <string name="yiba_wifi_ignore_net">Quên mật khẩu</string>
+    <string name="yiba_wifi_android_m_tips">Do những hạn chế về hệ thống của Android v6.0 trở lên, bạn cần phải đi đến cài đặt WLAN của hệ thống để xóa mạng này</string>
+    <string name="yiba_go">Thực hiện Ngay</string>
+    <string name="yiba_wifi_verify">Xác minh</string>
+    <string name="yiba_wifi_share">Chia sẻ</string>
+    <string name="yiba_wifi_setting">Trình quản lý Wi-Fi Mặc định</string>
+    <string name="yiba_wifi_manager">Trình quản lý Wi-Fi được Chia sẻ</string>
+    <string name="yiba_share_cancel_share">Hủy Chia sẻ</string>
+    <string name="yiba_share_cancel_success">Hủy Thành công</string>
+    <string name="yiba_share_to">Chia sẻ cho %s</string>
+    <string name="yiba_wifi_shared_success">Đã chia sẻ</string>
+    <string name="yiba_share_cancel_unable">Không thể hủy</string>
+    <string name="yiba_wifi_share_text">Bạn vẫn chưa chia sẻ bất kỳ Wi-Fi nào</string>
+    <string name="yiba_tip_message">Bạn đang dùng dữ liệu di động. Tiếp tục?</string>
+    <string name="yiba_dialog_share_message">Nếu bạn dừng chia sẻ Wi-Fi này, bạn sẽ không thể giúp bạn bè truy cập Internet. Vẫn tiếp tục?</string>
+    <string name="yiba_sure">OK</string>
+    <string name="yiba_dialog_share_tip_message">Để xác minh danh tính của bạn, vui lòng nhập mật khẩu kết nối</string>
+    <string name="yiba_wifi_unshare_failed">Không thể hủy</string>
+    <string name="yiba_wifi_unshare_password_error">Không thể hủy do mật khẩu không chính xác</string>
+    <string name="yiba_wifi_unshare_timeout">Thời gian chờ kết nối</string>
+    <string name="yiba_wifi_network_unavailable">Không có mạng</string>
+    <string name="yiba_unshare_to">Dừng chia sẻ với %s</string>
+    <string name="yiba_wifi_share_tips">Nếu bạn phát hiện thấy Wi-Fi riêng tư của bạn được chia sẻ thì có thể mật khẩu của bạn đã bị lộ. Trong trường hợp này, chúng tôi đề xuất bạn thay đổi mật khẩu Wi-Fi.</string>
+
+
+    <string name="yiba_web_page_no_found">Không tìm thấy trang</string>
+    <string name="yiba_web_page_loading">Đang tải...</string>
+    <string name="yiba_web_page_retry">Thử lại</string>
+    <string name="yiba_web_Authentication">Xác nhận</string>
+    <string name="yiba_no_open_wifi">Bật Wi-Fi để quét các điểm truy cập có sẵn</string>
+    <string name="yiba_open_wifi_tv">Bật Wi-Fi</string>
+    <string name="yiba_wifi_share_empty_sorry">Rất tiếc! Không có sẵn mạng nào</string>
+    <string name="yiba_wifi_share_empty_pull_to_refresh">Để tìm kiếm Wi-Fi, bạn có thể kéo xuống để tìm kiếm</string>
+    <string name="yiba_local_signal">Tín hiệu</string>
+    <string name="yiba_local_home">Trang chủ</string>
+    <string name="yiba_local_setting">Thiết đặt</string>
+    <string name="yiba_notification_content">Gõ để kết nối</string>
+    <string name="yiba_notification_free_wifi_tip">Tìm Wi-Fi được chia sẻ có sẵn</string>
+    <string name="yiba_notification_open_wifi_tip">Tìm Wi-Fi công cộng có sẵn</string>
+
+    <string name="yiba_ad">AD</string>
+    <string name="yiba_ad_fullscreen_connect_info">%s kết nối thành công</string>
+    <string name="yiba_ad_fullscreen_title">Tên ứng dụng</string>
+    <string name="yiba_ad_download">Tải xuống</string>
+    <string name="yiba_ad_fullscreen_tv_rate">Đánh Giá</string>
+    <string name="yiba_install">Cài đặt</string>
+    <string name="yiba_ad_fullscreen_top_title">Trình quản lý Wi-Fi</string>
+
+    <string name="wifi_eap_method">Phương pháp EAP</string>
+    <string name="please_select_phase2">Xác nhận giai đoạn 2</string>
+    <string name="wifi_eap_identity">Nhận dạng</string>
+    <string name="yiba_freewifi_connecting">Đang kết nối</string>
+</resources>

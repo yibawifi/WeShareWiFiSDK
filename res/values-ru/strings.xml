@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="yiba_wifi_sdk_name">Диспетчер Wi-Fi</string>
+    <string name="yiba_wifi_tab_name">Подключения Wi-Fi</string>
+    <string name="yiba_listview_head_other">Другие Wi-Fi</string>
+    <string name="yiba_listview_head_available">Доступные Wi-Fi</string>
+    <string name="yiba_wifi_describe_mine">Сохранено</string>
+    <string name="yiba_wifi_describe_free">Открыта</string>
+    <string name="yiba_wifi_describe_open">Открытая сеть Wi-Fi, можно сразу подключаться</string>
+    <string name="yiba_wifi_describe_other">Требуется пароль</string>
+    <string name="yiba_wifilist_connecting">Подключение...</string>
+    <string name="yiba_wifilist_connect_ok">Подключено</string>
+    <string name="yiba_wifilist_need_verify">Эту сеть Wi-Fi нужно проверить</string>
+    <string name="yiba_wifilist_connect_error">Сбой подключения</string>
+    <string name="yiba_wifi_free_wifi_tips">Сеть Wi-Fi, доступом к которой добровольно делится другой пользователь. Надеемся, что и вы будете так делать, помогая людям</string>
+    <string name="yiba_password_imput_hint">Пароль</string>
+    <string name="yiba_share_checkbox_tip">Делюсь доступом к этой сети Wi-Fi. Подтверждаю, что имею на это право.</string>
+    <string name="yiba_connect">Подключение</string>
+    <string name="yiba_cancel">Отмена</string>
+    <string name="yiba_wifi_wrong_passwd">Неверный пароль</string>
+    <string name="yiba_wifi_wrong_account_or_pwd">пароль  личности  или  ошибка</string>
+    <string name="yiba_wifi_item_noconnect_mes">Число сетей Wi-Fi в окрестностях: %1$d</string>
+    <string name="yiba_wifi_ignore_net">Забыть пароль</string>
+    <string name="yiba_wifi_android_m_tips">Из-за системных ограничений Android 6.0 и более новых версий, чтобы удалить эту сеть, нужно перейти в системные настройки беспроводных сетей</string>
+    <string name="yiba_go">Перейти</string>
+    <string name="yiba_wifi_verify">Проверить</string>
+    <string name="yiba_wifi_share">Поделиться</string>
+    <string name="yiba_wifi_setting">Диспетчер Wi-Fi по умолчанию</string>
+    <string name="yiba_wifi_manager">Диспетчер открытых Wi-Fi</string>
+    <string name="yiba_share_cancel_share">Закрыть доступ</string>
+    <string name="yiba_share_cancel_success">Успешная отмена</string>
+    <string name="yiba_share_to">Поделиться: %s</string>
+    <string name="yiba_wifi_shared_success">Открыта</string>
+    <string name="yiba_share_cancel_unable">Не удалось отменить</string>
+    <string name="yiba_wifi_share_text">Вы ещё не поделились ни одной Wi-Fi</string>
+    <string name="yiba_tip_message">Используется мобильный интернет. Продолжить?</string>
+    <string name="yiba_dialog_share_message">Если вы закроете доступ к этой сети Wi-Fi, вы перестанете помогать друзьям подключаться к Интернету. Всё равно продолжить?</string>
+    <string name="yiba_sure">ОК</string>
+    <string name="yiba_dialog_share_tip_message">Введите пароль подключения для подтверждения ИД</string>
+    <string name="yiba_wifi_unshare_failed">Не удалось отменить</string>
+    <string name="yiba_wifi_unshare_password_error">Ошибка: неверный пароль</string>
+    <string name="yiba_wifi_unshare_timeout">Тайм-аут подключения</string>
+    <string name="yiba_wifi_network_unavailable">Сеть недоступна</string>
+    <string name="yiba_unshare_to">Закрыть доступ: %s</string>
+    <string name="yiba_wifi_share_tips">Если к вашей личной сети Wi-Fi открыли доступ, ваш пароль мог «утечь». В таком случае рекомендуем сменить пароль Wi-Fi</string>
+
+
+    <string name="yiba_web_page_no_found">Страница не найдена</string>
+    <string name="yiba_web_page_loading">Загрузка...</string>
+    <string name="yiba_web_page_retry">Повторить попытку</string>
+    <string name="yiba_web_Authentication">Аутентификация</string>
+    <string name="yiba_no_open_wifi">Включите Wi-Fi для поиска доступных точек доступа</string>
+    <string name="yiba_open_wifi_tv">Включить Wi-Fi</string>
+    <string name="yiba_wifi_share_empty_sorry">Увы, доступных сетей нет</string>
+    <string name="yiba_wifi_share_empty_pull_to_refresh">Поиск Wi-Fi: потяните вниз для поиска</string>
+    <string name="yiba_local_signal">Сигнал</string>
+    <string name="yiba_local_home">Главная страница</string>
+    <string name="yiba_local_setting">Настройки</string>
+    <string name="yiba_notification_content">Нажмите для подключения</string>
+    <string name="yiba_notification_free_wifi_tip">Найти доступные открытые Wi-Fi</string>
+    <string name="yiba_notification_open_wifi_tip">Найти доступные публичные Wi-Fi</string>
+
+    <string name="yiba_ad">AD</string>
+    <string name="yiba_ad_fullscreen_connect_info">Подключение успешно: %s</string>
+    <string name="yiba_ad_fullscreen_title">Имя приложения</string>
+    <string name="yiba_ad_download">Скачать</string>
+    <string name="yiba_ad_fullscreen_tv_rate">Оценить</string>
+    <string name="yiba_install">Установить</string>
+    <string name="yiba_ad_fullscreen_top_title">Диспетчер Wi-Fi</string>
+
+    <string name="wifi_eap_method">Способ EAP</string>
+    <string name="please_select_phase2">Сертификация фазы 2</string>
+    <string name="wifi_eap_identity">ИД</string>
+    <string name="yiba_freewifi_connecting">Подключение</string>
+</resources>
